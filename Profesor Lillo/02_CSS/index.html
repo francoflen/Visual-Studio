@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estilos sobre los elementos</title>
+  </head>
+  <body>
+    <!-- En primera instancia intentará ejecutar los estilos que estén
+        directamente sobre los elementos -->
+    <form style="margin: 5px 0px; text-align: center;">
+      <!-- Para esto, agregaremos el atributo style, y pondremos los valores
+        con el formato clave: valor -->
+      <div style="margin: 5px 0px;">
+        <label
+          style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+          Nombre:</label>
+        <input type="text" />
+      </div>
+      <div style="margin: 5px 0px;">
+        <label
+        style="font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif">
+        Apellido:</label>
+        <input type="text" />
+      </div>
+      <div>
+        <button
+          style="
+            background-color: blue;
+            color: white;
+            padding: 10px 15px;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-family: 'Segoe UI';
+            box-shadow: 10px 5px 5px #ccc;
+          ">
+          Guardar
+        </button>
+      </div>
+    </form>
+  </body>
+</html>

@@ -1,0 +1,40 @@
+/* ---- Contenido principal ----*/
+body{
+    margin: 20px 30px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: aqua;
+    margin: 15px;
+    border-radius: 10px;
+}
+/* ---- Cuadrado posicionamiento especial ----*/
+.cuadrado-relative{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(238, 6, 6);
+    margin: 15px;
+    position: relative;
+    left: 150px;
+    top: 50px;
+}
+.cuadrado-absolute{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(243, 5, 5);
+    margin: 15px;
+    position: absolute;
+    top: 250px;
+}
+.cuadrado-fixed{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 0, 0);
+    margin: 15px;
+    position: fixed;
+    bottom: 30px;
+    right: 50px;
+}

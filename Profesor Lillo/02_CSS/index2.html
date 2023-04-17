@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Estilos en la cabecera</title>
+    <!-- Segunda forma de dar estilos a la página.. Definir dentro de <style> del head -->
+    <style>
+      /* Tienes que indicar un elemento, clase o id, para definir sus estilos
+        que irán entre llaves {} */
+      * {
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      }
+
+      body {
+        text-align: center;
+        margin: 20px 10px;
+      }
+
+      button {
+        background-color: blue;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 5px;
+        font-size: 16px;
+        font-family: "Segoe UI";
+        box-shadow: 10px 5px 5px #ccc;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <div>
+        <label> Nombre:</label>
+        <input type="text" />
+      </div>
+      <div>
+        <label> Apellido:</label>
+        <input type="text" />
+      </div>
+      <div>
+        <button>Guardar</button>
+        <button style="background-color: red;">Eliminar</button>
+      </div>
+    </form>
+  </body>
+</html>
